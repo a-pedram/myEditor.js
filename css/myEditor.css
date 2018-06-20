@@ -1,0 +1,102 @@
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.unselectable *{
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/*** my fx editor ***/
+.myEditors{position: relative;
+overflow : scroll}
+.myFxEditors{
+overflow : scroll
+}
+.myFxEdParts{
+    position: absolute;
+    border: 1px #CDF solid;
+    border-radius: 4px;
+    padding: 0px 4px;
+}
+#myEdFxTools{
+    position: absolute;
+    top:20px
+}
+#myEdFxTextMode{
+    font-size: 6px;
+}
+
+#myEdToolbar{
+    border: 1px gray solid;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 51;
+    padding: 1px;   
+    opacity: 0.7;
+}
+#myEdToolbar input{
+    display: inline-block;
+    float: left;
+    border: 1px gray solid;
+    border-radius: 7px;
+    margin: 0px 1px;
+    padding: 1px 1px 1px 1px;
+    font-size: 11px;
+    height: 20px;
+    text-align: center;
+    background-color: #EEE;
+    min-width: 19px;
+    font-family: Tahoma;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#myEdFullScreenEditor{
+    display: none;
+    position: absolute;
+    top: 3px;left:4px;
+    width: 98%;
+    height: 90%;
+    border: 1px black solid;
+    padding: 32px 2px 2px 2px;
+    overflow: auto;
+    z-index: 50;
+    background-color: white;
+}
+.myEdAudio{
+     max-width: 80%;
+     padding-top: 16px;
+     width: 250px; 
+     background-color: #987;
+}
+.myEdMediaBar{
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 51;
+}
+.myEdMediaBar input{
+       -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none; 
+}
+.myEdMediaBoxAbsolute{
+    position: absolute;
+}
+myEdMediaBoxRelative{
+    position: relative;
+}
