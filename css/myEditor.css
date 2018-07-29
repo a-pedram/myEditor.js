@@ -40,7 +40,7 @@ overflow : scroll
     position: absolute;
     background-color: white;
     z-index: 51;
-    padding: 1px;   
+    padding: 1px;
     opacity: 0.7;
 }
 #myEdToolbar input{
@@ -78,7 +78,7 @@ overflow : scroll
 .myEdAudio{
      max-width: 80%;
      padding-top: 16px;
-     width: 250px; 
+     width: 250px;
      background-color: #987;
 }
 .myEdMediaBar{
@@ -92,11 +92,23 @@ overflow : scroll
     -khtml-user-select: none;
     -webkit-user-select: none;
     -o-user-select: none;
-    user-select: none; 
+    user-select: none;
 }
 .myEdMediaBoxAbsolute{
     position: absolute;
 }
 myEdMediaBoxRelative{
     position: relative;
+}
+#myEdHtmlEditor{
+  display: none;
+  position: absolute;
+  top: 23px;left:4px;
+  width: 98%;
+  height: 90%;
+  border: 1px black solid;
+  padding: 32px 2px 2px 2px;
+  overflow: auto;
+  z-index: 50;
+  background-color: white;
 }
